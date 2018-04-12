@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <title>Palindrome Server</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  </head>
+  <div class="row">
+  <div class="col-sm-12">
+    <form class="server-form" method="post">
+      <div class="form-group">
+        <label for="input">Enter Text to check: </label>
+        <input type="text" class="form-control" id="input" name="input" placeholder="Input Text" value="{{input}}">
+      </div>
+      {{#if error }}
+      <div class="form-group">
+        <div class="alert alert-danger">
+          {{ error }}
+        </div>
+      </div>
+      {{#if result }}
+      <div class="form-group">
+        <div class="alert alert-success">
+        </div>
+      </div>
+      {{/if}}
+    </form>
+  </div>
+</div>
+
+</html>

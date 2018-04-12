@@ -1,0 +1,16 @@
+{
+  "name": "lab6",
+  "version": "1.0.0",
+  "description": "A simple server program",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikhil Ravi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "require": "^2.4.20"
+  }
+}
